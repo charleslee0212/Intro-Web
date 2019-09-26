@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>"lab06"</title>
+    </head>
+    <body>
+        <form action = "/form-handler" method = "post">
+        <h3>Questions</h3>
+        <label for = "firstname">First Name: </label>
+        <input type = "text" id = "firstname" name = "user_name">
+        <br>
+        <label for = "email">Email: </label>
+        <input type = "email" id = "email" name = "email_addr">
+        <br>
+        <label for = "option">pick me: </label>
+        <input type = "radio" id = "pick_me" name = "option">
+        <br>
+        <label for = "option">no! pick me: </label>
+        <input type = "radio" id = "no_pick_me" name = "option">
+        <br>
+        <label for = "option">wait! pick me: </label>
+        <input type = "radio" id = "wait_pick_me" name = "option">
+        <br>
+        <p>Check the following that best describes you</p>
+        <label for = "check_box">I'm dead</label>
+        <input type = "checkbox" id = "alive"name="check_box">
+        <br>
+        <label for = "check_box">I'm alive</label>
+        <input type = "checkbox" id = "alive"name="check_box">
+        <br>
+        <label for = "check_box">I'm/was human</label>
+        <input type = "checkbox" id = "alive"name="check_box">
+        <br>
+        <label for = "check_box">I'm using this website</label>
+        <input type = "checkbox" id = "alive"name="check_box">
+        <br>
+        <p>What is your sacrifice?
+          <select name = "sacrifice">
+            <option>chicken</option>
+            <option>cow</option>
+            <option>ant</option>
+            <option>lamb</option>
+            <option>goat</option>
+            <option>horse</option>
+          </select>
+        </p>
+        <p>What is your species? *can select more than one
+          <select name = "species" size = "6" multiple>
+            <option>human</option>
+            <option>dog</option>
+            <option>cat</option>
+            <option>raccoon</option>
+            <option>gold fish</option>
+            <option>tiger</option>
+          </select>
+        </p>
+        <br>
+        <h3>What is the purpose of your visit?</h3>
+        <label for="entry">
+          <textarea name = "entry" rows="8" cols="80" placeholder = "Write your purpose *100 words or less"></textarea>
+        </label>
+        <br>
+        <h3>Contact Info</h3>
+        <label for="phone_number">What is your phone number</label>
+        <input type = "tel" id = "user_number" name = "phone_number">
+        <br>
+        <h3>Yay! you are finsihed</h3>
+        <button type = "reset">reset</button>
+        <button type = "submit">submit</button>
+        </form>
+    </body>
+  </html>
