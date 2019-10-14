@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>submit form</title>
+    <style>
+      body {
+        background-color: #000000;
+        margin: 0 10%;
+        font-family: sans-serif;
+      }
+      label {
+        color: #ffffff;
+      }
+      pre {
+        text-align: center;
+        color: #ffffff;
+      }
+      h1 {
+        color: #ffffff;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ffffff;
+        margin-top: 30px;
+      }
+      p {
+        color: #ffffff
+      }
+      a {
+        color: #ffffff
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      survey
+    </h1>
+    <form action="index.html" method="post">
+      <label for="firstname">First Name: </label>
+      <input type="text" id="firstname" name="user_name">
+      <label for="lastname">Last Name: </label>
+      <input type="text" id="lastname" name="user_lastname">
+      <br>
+      <br>
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email_addr">
+      <br>
+      <p>How do you feel?</p>
+      <label for="feeling">very bad </label>
+      <input type="radio" id="very_bad" name="feeling">
+      <label for="feeling">bad </label>
+      <input type="radio" id="bad" name="feeling">
+      <label for="feeling">fairly bad </label>
+      <input type="radio" id="fairly_bad" name="feeling">
+      <label for="feeling">neutral </label>
+      <input type="radio" id="neutral" name="feeling">
+      <label for="feeling">fairly good </label>
+      <input type="radio" id="fairly_good" name="feeling">
+      <label for="feeling">good </label>
+      <input type="radio" id="good" name="feeling">
+      <label for="feeling">very good </label>
+      <input type="radio" id="very_good" name="feeling">
+      <br>
+      <p>Are you scared?</p>
+      <label for="yes/no">yes</label>
+      <input type="radio" id="yes" name="answer1">
+      <label for="yes/no">no</label>
+      <input type="radio" id="no" name="answer1">
+      <br>
+      <p>Can you look behind you?</p>
+      <label for="yes/no">yes</label>
+      <input type="radio" id="yes" name="answer2">
+      <label for="yes/no">no</label>
+      <input type="radio" id="no" name="answer2">
+      <p>Do you see anything?</p>
+      <label for="yes/no">yes</label>
+      <input type="radio" id="yes" name="answer3">
+      <label for="yes/no">no</label>
+      <input type="radio" id="no" name="answer3">
+      <p>What are you willing to sacrifice</p>
+      <select name="sacrifice">
+        <option>chicken</option>
+        <option>cow</option>
+        <option>lamb</option>
+        <option>ant</option>
+        <option>goat</option>
+        <option>horse</option>
+      </select>
+      <br>
+      <br>
+      <p>Please answer the following:</p>
+      <label for="entry">
+        <textarea name = "entry" rows="8" cols="80" placeholder = "Where do you sleep?"></textarea>
+      </label>
+      <br>
+      <button type = "reset">reset</button>
+      <button type = "submit">submit</button>
+    </form>
+    <img src="logo/eye.jpg" width="150" height="112" alt="logo">
+    <br>
+    <nav>
+      <a href="index.html">home</a>
+    </nav>
+    <pre>&copy 2019 The Eye Foundation | All rights reserved</pre>
+  </body>
+</html>
