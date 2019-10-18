@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>lab09</title>
+    <style>
+      h1{
+        text-align: center;
+      }
+    </style>
+    <script type="text/javascript">
+
+      function monster(name,weapon,souls,kills) {
+        this.name = name;
+        this.weapon = weapon;
+        this.souls = souls;
+        this.kills = kills;
+        this.display = function() {
+          console.log(this.name,this.weapon,this.souls,this.kills)
+        };
+      }
+
+      var hero = {
+        name: "Alexander",
+        weapon: "MonsterKiller",
+        armor: ["The helm of mending","boots of enlightenment"],
+        kills: [hellborne],
+        display: function() {
+          console.log(this.name,this.weapon,this.armor,this.kills)
+        }
+      };
+
+      var victor = Object.create(hero);
+      victor.name = "Victor";
+      victor.weapon = "Heaven's Light";
+      victor.armor = ["The gaunlets of luck","armour of swiftness"];
+      victor.kills = [];
+
+      var alexander = Object.create(hero);
+      alexander.name = "Alexander";
+      alexander.weapon = "Heaven's Fire";
+      alexander.armor = ["The helm of mending","boots of enlightenment"];
+      alexander.kills = [];
+
+      var hellborne = new monster("Hellborne",["DeathSeeker","HellBringer"],200,[victor,alexander]);
+      window.onclick = dead();
+
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      alert("Boss Approaching!!!");
+      confirm("Are you ready to fight?");
+      function dead(){
+        document.write("You are dead!!");
+      }
+      function win(){
+        document.write("You win!!");
+      }
+      function run(){
+        document.write("You are a coward");
+      }
+      window.addEventListener("mouseout", run);
+    </script>
+    <h1><img src="boss.jpg" alt="boss" onclick="dead();"></h1>
+  </body>
+</html>
