@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 id="intro"></h1>
+    <h2 id="parent"></h2>
+    <p id="test">t</p>
+    <h3>t</h3>
+    <form action="index.html" method="post">
+      <label for="firstname">first name: </label>
+      <input type="text" id="username" name="firstname" title = "name">
+      <label for="lastname">last name: </label>
+      <input type="text" id="userlastname" name="lastname" title="name">
+      <br>
+      <label for="options">Im dead </label>
+      <input type="checkbox" id="checkbox1" name="options">
+      <label for="options">Im dying </label>
+      <input type="checkbox" id="checkbox2" name="options">
+      <label for="options">Im alive </label>
+      <input type="checkbox" id="checkbox3" name="options">
+      <br>
+      <button type="submit">submit</button>
+    </form>
+    <script>
+      $(document).ready(function(){
+        var intro = document.getElementById("intro");
+        intro.innerHTML = "hello";
+        var inputs = document.getElementsByTagName('input');
+        for(var i = 0; i < inputs.length; i++){
+          inputs[i].setAttribute("title", "answer" + i);
+        }
+        var text = document.createTextNode("welcome");
+        var parent = document.getElementById("parent");
+        parent.appendChild(text);
+        parent.removeChild(text);
+        parent.appendChild(document.createTextNode("welcome"));
+
+        var test1 = $("#test");
+        test1.html("please do the following");
+
+        var test2 = $("h3");
+        test2.html("write your name");
+
+        var sidebar = querySelectorAll(".sidebar p");
+      });
+    </script>
+  </body>
+</html>
