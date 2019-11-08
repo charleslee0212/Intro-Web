@@ -1,0 +1,68 @@
+a:link{
+  color:red;
+  background: radial-gradient(white,black);
+}
+a:visited{
+  color:green;
+}
+a:hover{
+  color:maroon;
+  background:pink;
+}
+a:active{
+  color:yellow;
+}
+div:first-of-type{
+  color:brown;
+}
+div:last-of-type{
+  color:orange
+}
+p{
+  border: 3px solid;
+  box-sizing: border-box;
+  width:1000px;
+  height:500px;
+  overflow: scroll;
+  padding: 200px;
+  margin: 200px;
+  background: url(pbackground.jpg) top center no-repeat;
+  color:white;
+}
+p::first-letter{
+  color:pink;
+  background:blue;
+  font-size:300%;
+}
+p::before{
+  content: "Once upon a time";
+  font-weight: bold;
+  font-size: 300%;
+}
+p::after{
+  content: "The End";
+  font-weight: bold;
+  font-size: 200%;
+}
+img[src$=".gif"]{
+  border: 3px solid green;
+  border-radius: 5px;
+}
+img[alt="sunset"]{
+  border: 100px solid;
+  border-image: url(border2.png);
+}
+body{
+  background-image: url(background2.jpg);
+  background-position: right center;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+h1{
+  box-sizing: border-box;
+  height: 50px;
+  width: 150px;
+  color:white;
+  border:3px solid;
+
+}
