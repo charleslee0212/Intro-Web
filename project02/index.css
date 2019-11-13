@@ -1,0 +1,57 @@
+body{
+  background: url(night.gif) fixed center;
+  background-size: cover;
+}
+a:hover{
+  color: #79E9FF;
+}
+.title{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-120%);
+  color: white;
+  font-family: monospace;
+  font-size: 500%;
+  letter-spacing: 50px;
+}
+.stories{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-575%) translateY(300%);
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+.random{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-300%) translateY(300%);
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+.submit{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(75%) translateY(300%);
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+.about{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(575%) translateY(300%);
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,115 @@
+body{
+  background: url(night.gif) fixed center;
+  background-size: cover;
+}
+a:hover{
+  color: #79E9FF;
+}
+.title{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+}
+.story{
+  position: absolute;
+  left: 18.7%;
+  top: 20%;
+  border: 3px solid;
+  box-sizing: border-box;
+  width:700px;
+  height:1000px;
+  overflow: scroll;
+  padding: 50px;
+  margin: 100px;
+  background: url(storybackground.png) no-repeat;
+  color: white;
+  overflow: scroll;
+}
+.book{
+  color: white;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.description{
+  font-size: 150%;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.copyright{
+  position: absolute;
+  top: 175%;
+  left: 37%;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.menu{
+  position: absolute;
+  top: 165%;
+  left: 25%;
+  width: 50%;
+  color: white;
+}
+.bottom{
+  position: absolute;
+  top: 180%;
+  left: 37%;
+  width: 25%;
+  color: white;
+}
+.top{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  color: white;
+}
+.home{
+  position: absolute;
+  top:170%;
+  left:25%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.stories{
+  position: absolute;
+  top:170%;
+  left:40%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.submit{
+  position: absolute;
+  top:170%;
+  left:55%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.about{
+  position: absolute;
+  top:170%;
+  left:72%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.random{
+  position: absolute;
+  top:160%;
+  left:47.5%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}

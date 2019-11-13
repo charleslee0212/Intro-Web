@@ -1,0 +1,174 @@
+body{
+  background: url(night.gif) fixed center;
+  background-size: cover;
+}
+a:hover{
+  color: #79E9FF;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background: url(storybackground.png);
+  margin: auto;
+  padding: 20px;
+  border: 5px solid white;
+  width: 500px;
+  height: 500px;
+  overflow: scroll;
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+.description{
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.book{
+  color: white;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.copyright{
+  position: absolute;
+  top: 145%;
+  left: 37%;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.menu{
+  position: absolute;
+  top: 135%;
+  left: 25%;
+  width: 50%;
+  color: white;
+}
+.bottom{
+  position: absolute;
+  top: 150%;
+  left: 37%;
+  width: 25%;
+  color: white;
+}
+.top{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  color: white;
+}
+.home{
+  position: absolute;
+  top:140%;
+  left:25%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.random{
+  position: absolute;
+  top:140%;
+  left:40%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.submit{
+  position: absolute;
+  top:140%;
+  left:55%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.about{
+  position: absolute;
+  top:140%;
+  left:72%;
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.title{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+}
+.firstStory{
+  border: 5px white solid;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-250%) translateY(-50%);
+}
+.secondStory{
+  border: 5px white solid;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.thirdStory{
+  border: 5px white solid;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(150%) translateY(-50%);
+}
+.fourthStory{
+  border: 5px white solid;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-270%) translateY(100%);
+}
+.fifthStory{
+  border: 5px white solid;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(100%);
+}
+.sixthStory{
+  border: 5px white solid;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(170%) translateY(150%);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>submit</title>
+    <link rel="stylesheet" href="submit.css">
+  </head>
+  <body>
+    <h1 class="title">submit</h1>
+    <hr class="top">
+    <p class="description">submit your own story</p>
+    <div class="story">
+      <form action="index.html" method="post">
+        <label for="firstname">first name: </label>
+        <input type="text" id="firstname" name="user_name">
+        <label for="lastname">last name: </label>
+        <input type="text" id="lastname" name="user_lastname">
+        <br>
+        <br>
+        <br>
+        <label for="email">email: </label>
+        <input type="email" id="email" name="email_addr">
+        <br>
+        <br>
+        <p>write your story:</p>
+        <label for="entry">
+          <textarea name = "entry" rows="40" cols="115" placeholder = "once upon a time..."></textarea>
+        </label>
+        <button type = "reset">reset</button>
+        <button type = "submit" onclick="popup();">submit</button>
+      </form>
+    </div>
+    <script src="submit.js"></script>
+
+    <a href="index.html" class="home">home</a>
+    <a href="stories.html" class="stories">stories</a>
+    <a href="random.html" class="random">random</a>
+    <a href="about.html" class="about">about</a>
+
+    <hr class="menu">
+    <p class="copyright">&copy 2019 bedtime foundation | All rights reserved</p>
+    <hr class="bottom">
+  </body>
+</html>
