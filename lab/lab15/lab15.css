@@ -1,0 +1,56 @@
+h1{
+  margin: 50px;
+  color: blue;
+}
+img{
+  float: right;
+  margin: 50px;
+  color: red;
+}
+div{
+  color: pink;
+  display: inline;
+}
+em{
+  color: green;
+  display: block;
+}
+h2{
+  color: white;
+  background-color: orange;
+  box-shadow: 6px 6px #666;
+}
+h3{
+  position: absolute;
+  left: 50%;
+  top: 600%;
+}
+h4{
+  clear: right;
+}
+ul{
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+ul li{
+  float:left;
+  display: block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 10px;
+  color: white;
+  background-color: lightslategray;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 5px;
+}
+h5{
+  color: pink;
+  font-size: 500%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  z-index: -1;
+}
