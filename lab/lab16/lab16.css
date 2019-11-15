@@ -1,0 +1,97 @@
+.flex{
+  display: flex;
+  background-color: dodgerblue;
+  width: 500px;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.flex > div{
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  font-size: 200%;
+}
+.absolute-flex{
+  flex: .6;
+}
+.grid{
+  display: grid;
+  background-color: pink;
+  width: 700px;
+  height: 700px;
+  grid-auto-rows: [header] 100px [content_] 500px [footer] 100px;
+  grid-template-columns: [ads] 100px [main] 500px [links] 100px;
+  grid-template-areas:
+    "header header2 header3"
+    "ads main links"
+    "footer footer2 footer3";
+  grid-gap: 200px 200px;
+}
+.one{
+  grid-area: header;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: lightblue;
+  color: white;
+}
+.two{
+  grid-area: ads;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: lightgray;
+  color: white;
+}
+.three{
+  grid-area: footer;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: magenta;
+  color: white;
+}
+.four{
+  grid-area: header2;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+}
+.five{
+  grid-area: main;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: yellow;
+  color: white;
+}
+.six{
+  grid-area: footer2;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: brown;
+  color: white;
+}
+.seven{
+  grid-area: header3;
+  font-size: 300%;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: green;
+  color: white;
+}
