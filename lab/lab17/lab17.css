@@ -1,0 +1,53 @@
+body{
+  background-color: pink;
+}
+@media screen and (max-width: 600px){
+  body{
+    background-color: lightblue;
+  }
+}
+#transition{
+  text-align: center;
+  border-radius: 10px;
+  font-size: 200%;
+  margin: 10px;
+  background-color: dodgerblue;
+  width: 100px;
+  transition: all 1s ease;
+}
+#transition:hover{
+  color: white;
+  width: 200px;
+  background-color: magenta;
+}
+img.rotate{
+  transform: rotate(10deg);
+}
+img.skew{
+  transform: skew(20deg,20deg);
+}
+ul{
+  width: 1000px;
+  height: 100px;
+  perspective: 600px;
+}
+li{
+  float: left;
+  margin-right: 10px;
+  transform: rotateX(45deg);
+}
+@keyframes anim{
+  0% {background-color: blue;}
+  25% {background-color: red;}
+  50% {background-color: green;}
+  75% {background-color: yellow;}
+  100% {background-color: magenta;}
+}
+p{
+  margin: 100px;
+  text-align: center;
+  color: white;
+  width: 100px;
+  border-radius: 15px;
+  animation: anim 5s infinite;
+}
